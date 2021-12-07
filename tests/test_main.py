@@ -44,6 +44,7 @@ class TestMain(unittest.TestCase):
 
         expected_df = self.spark.createDataFrame(expected_data, ['id', 'country'])
 
+        #comparing the two datasets
         assert_df_equality(actual_df,expected_df)
 
     #Unit Testing the Rename function by checking that the schema is the same
@@ -60,6 +61,8 @@ class TestMain(unittest.TestCase):
         ]
 
         expected_df = self.spark.createDataFrame(expected_data, ['id_new', 'country','first_name'])
+
+        #comparing the two dataset
         assert_df_equality(actual_df, expected_df)
 
 
