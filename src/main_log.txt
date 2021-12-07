@@ -1,0 +1,40 @@
+2021/12/07 10:27:16 - ERROR :  Error!.. Input parameters not equal to three
+2021/12/07 10:27:49 - ERROR :  Error!.. Input parameters not equal to three
+2021/12/07 10:28:33 - ERROR :  Error!.. Input parameters not equal to three
+2021/12/07 10:28:45 - INFO :  ----------Starting Process----------
+2021/12/07 10:28:48 - INFO :  Reading the first dataset found in input_data\dataset_one.csv
+2021/12/07 10:28:48 - ERROR :  Error in the process!: Path does not exist: file:/C:/Work/ABN-Ambro/AbnTest/src/input_data/dataset_one.csv
+2021/12/07 10:34:37 - INFO :  ----------Starting Process----------
+2021/12/07 10:36:24 - INFO :  ----------Starting Process----------
+2021/12/07 10:36:26 - INFO :  Reading the first dataset found in input_data\dataset_one.csv
+2021/12/07 10:36:27 - ERROR :  Error in the process!: Path does not exist: file:/C:/Work/ABN-Ambro/AbnTest/src/input_data/dataset_one.csv;
+2021/12/07 10:37:41 - INFO :  ----------Starting Process----------
+2021/12/07 10:37:42 - INFO :  Reading the first dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_one.csv
+2021/12/07 10:37:46 - INFO :  Reading the second dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_two.csv
+2021/12/07 10:37:46 - INFO :  Filtering for the following countries ['United Kingdom', 'Netherlands']
+2021/12/07 10:37:47 - INFO :  Renaming the Fields {}
+2021/12/07 10:37:47 - INFO :  Saving client dataset named as dataset_client_202112071037.csv
+2021/12/07 10:37:47 - ERROR :  Error in the process!: [Errno 2] No such file or directory: 'client_data\\dataset_client_202112071037.csv'
+2021/12/07 10:39:49 - INFO :  ----------Starting Process----------
+2021/12/07 10:39:50 - INFO :  Reading the first dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_one.csv
+2021/12/07 10:39:54 - INFO :  Reading the second dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_two.csv
+2021/12/07 10:39:54 - INFO :  Filtering for the following countries ['United Kingdom', 'Netherlands']
+2021/12/07 10:39:55 - INFO :  Renaming the Fields {}
+2021/12/07 10:39:55 - INFO :  Saving client dataset named as dataset_client_202112071039.csv
+2021/12/07 10:39:55 - INFO :  Process finished
+2021/12/07 10:39:55 - INFO :  ---------------------------------------------
+2021/12/07 10:41:00 - INFO :  ----------Starting Process----------
+2021/12/07 10:41:01 - INFO :  Reading the first dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_one.csv
+2021/12/07 10:41:04 - INFO :  Reading the second dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_two.csv
+2021/12/07 10:41:05 - INFO :  Filtering for the following countries ['United Kingdom', 'Netherlands']
+2021/12/07 10:41:05 - INFO :  Renaming the Fields {}
+2021/12/07 10:41:06 - INFO :  Saving client dataset named as dataset_client_202112071041.csv
+2021/12/07 10:41:06 - INFO :  Process finished
+2021/12/07 10:41:06 - INFO :  ---------------------------------------------
+2021/12/07 11:41:27 - INFO :  ----------Starting Process----------
+2021/12/07 11:41:28 - INFO :  Reading the first dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_one.csv
+2021/12/07 11:41:32 - INFO :  Reading the second dataset found in C:\Work\ABN-Ambro\AbnTest\input_data\dataset_two.csv
+2021/12/07 11:41:32 - INFO :  Filtering for the following countries ['United Kingdom', 'Netherlands']
+2021/12/07 11:41:33 - INFO :  Renaming the output fields
+2021/12/07 11:41:33 - INFO :  Saving client dataset named as dataset_client_202112071141.csv
+2021/12/07 11:41:33 - ERROR :  Error in the process!: [Errno 2] No such file or directory: 'C:\\client_data\\dataset_client_202112071141.csv'
