@@ -62,7 +62,7 @@ class TestMain(unittest.TestCase):
 
         expected_df = self.spark.createDataFrame(expected_data, ['id_new', 'country','first_name'])
 
-        #comparing the two datasets
+        #comparing the two dataset
         assert_df_equality(actual_df, expected_df)
 
 
