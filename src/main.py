@@ -6,6 +6,7 @@ from pathlib import Path
 os.environ['JAVA_HOME'] = r'C:\Program Files\Java\jdk-11.0.13'
 os.environ['HADOOP_HOME'] = r'C:\Spark\spark-3.0.3-bin-hadoop2.7'
 
+#Setting Relative paths
 import sys
 import os
 sys.path.append(os.path.abspath('../src'))
