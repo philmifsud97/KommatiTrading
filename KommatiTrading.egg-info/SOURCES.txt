@@ -1,0 +1,16 @@
+.travis.yml
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+KommatiTrading.egg-info/PKG-INFO
+KommatiTrading.egg-info/SOURCES.txt
+KommatiTrading.egg-info/dependency_links.txt
+KommatiTrading.egg-info/top_level.txt
+input_data/dataset_one.csv
+input_data/dataset_two.csv
+input_data/exercise.md
+src/__init__.py
+src/main.py
+tests/__init__.py
+tests/test_main.py
