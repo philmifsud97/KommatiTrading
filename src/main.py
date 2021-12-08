@@ -78,12 +78,13 @@ if __name__ == '__main__':
         df_customer = spark.read.format("csv").option("header",True).load(ds1_f).drop('first_name').drop('last_name')
         print("Number of customers", df_customer.count())
 
-        #Reading the second dataset and removing any personal identifiable fields
+        #Filtering the rows which are only found for the given country list by the user
+        
         logging.info("Reading the second dataset found in {}".format(ds2_f))
         df_customer_filtered = filter_countries(df_customer,country_list)
         print("Number of customers after filtering", df_customer_filtered.count())
 
-        #Filtering the rows which are only found for the given country list by the user
+        #Reading the second dataset and removing any personal identifiable fields
         logging.info("Filtering for the following countries {}".format(country_list))
         df_financial = spark.read.format("csv").option("header",True).load(ds2_f).drop('cc_n')
         print("Number of financial statements ", df_financial.count())
