@@ -25,7 +25,7 @@ p3: a list of countries to filter on separated by a comma and in open and closed
 
 Example:
 ```bash
-spark-submit main.py C:\Work\ABN-Ambro\AbnTest\input_data\dataset_one.csv C:\Work\ABN-Ambro\AbnTest\input_data\dataset_two.csv "United Kingdom,Netherlands"
+spark-submit main.py C:\Work\ABN-Ambro\KommatiTrading\input_data\dataset_one.csv C:\Work\ABN-Ambro\KommatiTrading\input_data\dataset_two.csv "United Kingdom,Netherlands"
 ```
 
 ## Testing
