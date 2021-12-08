@@ -42,9 +42,9 @@ if __name__ == '__main__':
     base_path = Path(__file__).parent.parent
     print(base_path)
 
-    #setting the appropriate output directory
+    #setting the appropriate output directory to save the client file
     relpath = "\client_data\\"
-    abs_output_dir = base_path + relpath
+    abs_output_dir = str(base_path) + relpath
     print(abs_output_dir)
 
 
